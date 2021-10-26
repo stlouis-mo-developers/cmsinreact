@@ -1,4 +1,34 @@
-# Getting Started with Create React App
+# ReactJS MultiTenant App
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+    - [ReactJS Installation](#reactj-install)
+- [Getting Started](#getting-started)
+- [About ReactJS](#about-reactjs)
+
+## Prerequisites
+- Visual Studio Code (development environment)
+- Git
+- Node
+- NPM
+
+### ReactJS Installation
+run `npm install -g react@latest react-dom@latest` on your development machine
+
+
+## Getting Started
+
+- Clone the repo and `cd` into its folder
+- `npm install` to install dependencies
+- `npm start` to run the app in dev mode
+
+### Install Git
+### Install ReactJS - npm install -g react@latest react-dom@latest
+### Create your React Project using Create React App - npx create-react-app reactjs-lesson-one-multi-tenant --template typescript
+
+
+## About ReactJS
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
