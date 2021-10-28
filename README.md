@@ -11,9 +11,9 @@
     - [What Is ReactJS?](#what-is-reactjs)
     - [What Is Create React App?](#what-is-create-react-app)
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
-    -[Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
-    -[How To Create Your First Component?](#how-to-create-your-first-component)
-    -[App Component?](#app-component)
+    - [Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
+    - [How To Create Your First Component?](#how-to-create-your-first-component)
+    - [App Component?](#app-component)
 - [Tips](#tips)
 
 ## Introduction
@@ -94,7 +94,52 @@ Some of the typical components you will find in a ReactJS app incude:
 
 ### App Component
  - `Create React App` by default generates your first component as a functional component inside the `App.tsx` file
- - A functional component is a JavaScript function that accepts an argument or inputs named props and returns a React element, Functional components don't have their own state and are also known as `stateless components`
+ - The App.tsx file consists of import statements at the beginning, the App component in the middle, and an export statement at the bottom. 
+
+ The import statements at the top of the file `App.tsx` provides us with code that has been defined elsewhere. 
+ Let's look at these statements 
+```
+<code>
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+</code>
+```
+
+- The first statement imports the React library itself. 
+- The second statement imports a logo from './logo.svg'. 
+- The third statement imports the CSS for our App component. 
+
+- The App component
+After the imports, we have a functional compponent named App, so, let's look at App more closely.
+
+```
+<code>
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+</code>
+```
+
+- Export statements
+At the very bottom of the App.tsx file, is the statement that exports our default App makes our App component available to other modules.
 
 
 ## Tips
