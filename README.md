@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-    - [ReactJS Installation](#reactjs-installation)
+    - [How to install ReactJS](#how-to-install-reactjs)
 - [How To Setup in ReactJS](#how-to-setup-in-reactjs)
     - [What Is Node?](#what-is-node)
     - [What Is NPM?](#what-is-npm)
@@ -11,6 +11,9 @@
     - [What Is ReactJS?](#what-is-reactjs)
     - [What Is Create React App?](#what-is-create-react-app)
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
+    -[Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
+    -[How To Create Your First Component](#how-to-create-your-first-component)
+- [Tips](#tips)
 
 ## Prerequisites
 - Node
@@ -18,7 +21,7 @@
 - Git
 - Visual Studio Code (development environment)
 
-### ReactJS Installation
+### How to install ReactJS
 run `npm install -g react@latest react-dom@latest` on your development machine
 
 
@@ -61,11 +64,25 @@ React was first created by Jordan Walke, a software engineer working for Faceboo
 This project was generated with [Create React App](https://github.com/facebook/create-react-app).
 
 
-
 ## How To Code in ReactJS
 
+### Why Do We Use Components in ReactJS?
+Components are the core building blocks of React Frontends / User Interfaces (UIs), Websites or Apps. 
+So, developing an application in React means breaking down your app into multiple, independent, reusable sections (components)
+so that they can be worked on in-isolation and then merged later into a final parent component!
+Some of the typical components you will find in a ReactJS app incude:
+- App Component
+- Header Component
+- Footer Component
+- Login Component
 
-## Available Scripts
+
+### How To Create Your First Component?
+Components are the core building blocks of React Frontends / User Interfaces (UIs), Websites or Apps. 
+
+
+
+## Tips
 
 In the project directory, you can run:
 
