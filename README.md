@@ -13,6 +13,7 @@
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
     -[Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
     -[How To Create Your First Component?](#how-to-create-your-first-component)
+    -[App Component?](#app-component)
 - [Tips](#tips)
 
 ## Introduction
@@ -87,6 +88,13 @@ Some of the typical components you will find in a ReactJS app incude:
 - If you used the `Create React App` or the `git clone fom repo-url` method, you already have the first component created for you.
 - Your first component is also known as the App component and is contained within your `src` folder in the `App.tsx` file.
 - So, open your `App.tsx` file and you will find a ReactJS function that declarees your App Component. 
+- So, there are two types of components that we can create in ReactJs based on how it uses `State`. State is data that we bring into a component that ends up being used, changed or even presented in the User Interface 
+    - A `Functional component` or `stateless component` or `dumb component` is a JavaScript function that accepts an argument or input named props and returns a React element. Functional components don't have or hold their own `State`
+    - A `class component` or `stateful component`or `smart component` is a React component that holds or maintains its own `State`.
+
+### App Component
+ - `Create React App` by default generates your first component as a functional component inside the `App.tsx` file
+ - A functional component is a JavaScript function that accepts an argument or inputs named props and returns a React element, Functional components don't have their own state and are also known as `stateless components`
 
 
 ## Tips
