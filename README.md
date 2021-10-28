@@ -1,7 +1,7 @@
 # ReactJS Quick Start Guide
 
 ## Table of Contents
-
+- [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
     - [How to install ReactJS](#how-to-install-reactjs)
 - [How To Setup in ReactJS](#how-to-setup-in-reactjs)
@@ -12,8 +12,14 @@
     - [What Is Create React App?](#what-is-create-react-app)
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
     -[Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
-    -[How To Create Your First Component](#how-to-create-your-first-component)
+    -[How To Create Your First Component?](#how-to-create-your-first-component)
 - [Tips](#tips)
+
+## Introduction
+- Why do we use or code in ReactJS?
+- NWhat do we need to code in ReactJS?
+- How do we code in ReactJS
+- Who Am I?
 
 ## Prerequisites
 - Node
@@ -37,12 +43,12 @@ Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8
 Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. 
 Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
 Node.js also provides a rich library of JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
-`Learn More: https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm`
+- `Learn More: https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm`
 
 
 ### What Is NPM?
 npm is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management. A plethora of Node.js libraries and applications are published on npm, and many more are added every day. These applications can be searched for on https://www.npmjs.com/. Once you have a package you want to install, it can be installed with a single command-line command.
-`Learn More: https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/`
+- `Learn More`: https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
 
 ### What Is GIT?
@@ -78,8 +84,9 @@ Some of the typical components you will find in a ReactJS app incude:
 
 
 ### How To Create Your First Component?
-Components are the core building blocks of React Frontends / User Interfaces (UIs), Websites or Apps. 
-
+- If you used the `Create React App` or the `git clone fom repo-url` method, you already have the first component created for you.
+- Your first component is also known as the App component and is contained within your `src` folder in the `App.tsx` file.
+- So, open your `App.tsx` file and you will find a ReactJS function that declarees your App Component. 
 
 
 ## Tips
