@@ -41,15 +41,16 @@ run `npm install -g react@latest react-dom@latest` on your development machine
 
 
 ### What Is Node?
-Node.js is a server-side platform built on Google Chrome's JavaScript Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009.
-Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. 
-Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
-Node.js also provides a rich library of JavaScript modules which simplifies the development of web applications using Node.js to a great extent.
-- `Learn More: https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm`
+- `Node.js` is a server-side platform built on Google Chrome's JavaScript Engine and was developed by Ryan Dahl in 2009.
+- Node.js is also an open source, cross-platform (mac, windows, linux) environment for developing and/or running software applications. 
+- `NodeJS` applications are written in JavaScript, and can be run within the Node.js runtime, as in on OS X, Microsoft Windows, and Linux.
+- Node.js also provides a rich library of JavaScript modules (code) which simplifies the development of applications
+- `Download & Install NodeJS: https://nodejs.org/en/download/`
 
 
 ### What Is NPM?
-npm is two things: first and foremost, it is an online repository for the publishing of open-source Node.js projects; second, it is a command-line utility for interacting with said repository that aids in package installation, version management, and dependency management. A plethora of Node.js libraries and applications are published on npm, and many more are added every day. These applications can be searched for on https://www.npmjs.com/. Once you have a package you want to install, it can be installed with a single command-line command.
+- `npm` is the world's largest online code repository  and is used for the publishing of open-source Node.js projects.
+- `npm` is also available as a local command-line utility for interacting with the online repository and/or or package installation, version management, and dependency management. A plethora of Node.js libraries and applications are published on npm, and many more are added every day. These applications can be searched for on https://www.npmjs.com/. Once you have a package you want to install, it can be installed with a single command-line command.
 - `Learn More`: https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
 
