@@ -3,13 +3,13 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-    - [How to install ReactJS](#how-to-install-reactjs)
 - [How To Setup in ReactJS](#how-to-setup-in-reactjs)
     - [What Is Node?](#what-is-node)
     - [What Is NPM?](#what-is-npm)
     - [What Is GIT?](#what-is-git)
     - [What Is ReactJS?](#what-is-reactjs)
     - [What Is Create React App?](#what-is-create-react-app)
+        - [How to install ReactJS](#how-to-install-reactjs)
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
     - [Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
     - [What Is JSX?](#what-is-jsx)
@@ -28,9 +28,6 @@
 - NPM
 - Git
 - Visual Studio Code (development environment)
-
-### How to install ReactJS
-run `npm install -g react@latest react-dom@latest` on your development machine
 
 
 ## How To Setup in ReactJS
@@ -57,11 +54,12 @@ run `npm install -g react@latest react-dom@latest` on your development machine
 
 
 ### What Is GIT?
-Git is software for tracking changes in any set of files and is used for coordinating work among programmers and/or collaboratively developing source code during software development. 
-Git is the most commonly used version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. 
-Git is software that runs locally. Your files and their history are stored on your computer. You can also use online hosts (such as GitHub or Bitbucket) to store a copy of the files and their revision history. Having a centrally located place where you can upload your changes and download changes from others, enable you to collaborate more easily with other developers. Git can automatically merge the changes, so two people can even work on different parts of the same file and later merge those changes without losing each other’s work!
-Git was created by Linus Torvalds in 2005 for development of Linux.
-`Learn More: https://en.wikipedia.org/wiki/Git`
+- Git is a software that's used for tracking changes in any set of files and also for co-ordinating coding work among programmers and/or collaboratively developing source code. Git makes collaboration between developers easier by managing changes from multiple developers so it can all be be merged into one source code. 
+- Git is the most commonly used software version control system. Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to.
+- Git is software that runs locally. Your files and their history are stored on your computer. You can also use online Git hosts (such as GitHub or Bitbucket) to store a copy of the files and their revision history. Having shared locations where you can upload your changes and/or download changes from others, helps you collaborate more easily with other developers. 
+- Git can also automatically merge multiple changes from two or more people, so they can later merge those changes without losing each other’s work!
+- Git was created by Linus Torvalds in 2005 for development of Linux.
+`Download & Install Git: https://git-scm.com/downloads`
 
 
 ### What Is ReactJS?
@@ -73,6 +71,9 @@ Create-React-App is a command-line tool from Facebook that allows you to quickly
 without spending a lot of time setting up your local build, development & testing environment.
 React was first created by Jordan Walke, a software engineer working for Facebook.
 This project was generated with [Create React App](https://github.com/facebook/create-react-app).
+
+### How to install ReactJS
+run `npm install -g react@latest react-dom@latest` on your development machine
 
 
 ## How To Code in ReactJS
