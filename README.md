@@ -50,7 +50,9 @@ run `npm install -g react@latest react-dom@latest` on your development machine
 
 ### What Is NPM?
 - `npm` is the world's largest online code repository  and is used for the publishing of open-source Node.js projects.
-- `npm` is also available as a local command-line utility for interacting with the online repository and/or or package installation, version management, and dependency management. A plethora of Node.js libraries and applications are published on npm, and many more are added every day. These applications can be searched for on https://www.npmjs.com/. Once you have a package you want to install, it can be installed with a single command-line command.
+- `npm` is also available as a local command-line utility for interacting with the online repository and/or or software package installation, version management and dependency management. 
+- There is a ton of Node.js software libraries and/or applications published on npm and they can be searched for on `https://www.npmjs.com`. 
+- Anytime you have a software package that you want to install, it can be installed with a single command-line NPM command.
 - `Learn More`: https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
 
