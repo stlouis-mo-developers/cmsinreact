@@ -12,6 +12,7 @@
     - [What Is Create React App?](#what-is-create-react-app)
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
     - [Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
+    - [What Is JSX?](#what-is-jsx)
     - [How To Create Your First Component?](#how-to-create-your-first-component)
     - [App Component?](#app-component)
 - [Tips](#tips)
@@ -83,6 +84,18 @@ Some of the typical components you will find in a ReactJS app incude:
 - Footer Component
 - Login Component
 
+### What Is JSX?
+`JSX` stands for `Javascript XML` and is the React syntax / language that allows you to write HMTL like tags inside JavaScript!
+- Browsers do not understan JSX beacuse its' not valid Javascript syntax and so, we need a tool like `Bablel` to transform / compile `JSX` 
+syntax into Javasript functions that the browser can understand and execute! 
+- Each JSX tag is compiled into a Javascript `React.createElement` function call which is a plain Javascript function that browsers support  / understand.
+- A JSX expression starts with a HTML-like opening tag, and also ends with its closing tag. You can leave out the closing tag if there are no children
+Here is what JSX looks like ...
+```
+<code>
+  const h1Element = <h1 className="myclass">H1 Element</h1>;
+</code>
+```
 
 ### How To Create Your First Component?
 - If you used the `Create React App` or the `git clone fom repo-url` method, you already have the first component created for you.
@@ -96,8 +109,8 @@ Some of the typical components you will find in a ReactJS app incude:
  - `Create React App` by default generates your first component as a functional component inside the `App.tsx` file
  - The App.tsx file consists of import statements at the beginning, the App component in the middle, and an export statement at the bottom. 
 
- The import statements at the top of the file `App.tsx` provides us with code that has been defined elsewhere. 
- Let's look at these statements 
+ The import statements at the top of the file `App.tsx` provides us with code that has been created some where. 
+Here is what it looks like ... 
 ```
 <code>
 import React from 'react';
@@ -106,12 +119,11 @@ import './App.css';
 </code>
 ```
 
-- The first statement imports the React library itself. 
+- The first statement finds the default export from the NodeJS React library and imports that as constant named React 
 - The second statement imports a logo from './logo.svg'. 
-- The third statement imports the CSS for our App component. 
-
+- The third statement imports the stylesheets / CSS for your ReactJS App component 
 - The App component
-After the imports, we have a functional compponent named App, so, let's look at App more closely.
+  - After all the imports, you have a functional compponent named App. Here is what it looks like ...
 
 ```
 <code>
@@ -139,8 +151,16 @@ function App() {
 ```
 
 - Export statements
-At the very bottom of the App.tsx file, is the statement that exports our default App makes our App component available to other modules.
+At the bottom of your App.tsx file, you will find a default export statement that makes your App component available to other modules. Here is what the code looks like ...
+```
+<code>
+export default App;
+</code>
+```
 
+# References 
+ - JSX 
+  - https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918
 
 ## Tips
 
