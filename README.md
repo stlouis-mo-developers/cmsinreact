@@ -53,6 +53,7 @@ enterprise Web, mobile & desktop applications using multiple software frameworks
 - `npm start` to run the app in dev mode
 - Create a new React Project using Create React App by running `npx create-react-app reactjs-lesson-one-multi-tenant --template typescript`
 
+#### [Home](#table-of-contents)
 
 ### What Is Node?
 - `Node.js` is a server-side platform built on Google Chrome's JavaScript Engine and was developed by Ryan Dahl in 2009.
@@ -60,6 +61,8 @@ enterprise Web, mobile & desktop applications using multiple software frameworks
 - `NodeJS` applications are written in JavaScript, and can be run within the Node.js runtime, as in on OS X, Microsoft Windows, and Linux.
 - Node.js also provides a rich library of JavaScript modules (code) which simplifies the development of applications
 - `Download & Install NodeJS: https://nodejs.org/en/download/`
+
+#### [Home](#table-of-contents)
 
 
 ### What Is NPM?
@@ -69,6 +72,8 @@ enterprise Web, mobile & desktop applications using multiple software frameworks
 - Anytime you have a software package that you want to install, it can be installed with a single command-line NPM command.
 - `Learn More`: https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
+#### [Home](#table-of-contents)
+
 
 ### What Is GIT?
 - Git is a software that's used for tracking changes in any set of files and also for co-ordinating coding work among programmers and/or collaboratively developing source code. Git makes collaboration between developers easier by managing changes from multiple developers so it can all be be merged into one source code. 
@@ -77,6 +82,8 @@ enterprise Web, mobile & desktop applications using multiple software frameworks
 - Git can also automatically merge multiple changes from two or more people, so they can later merge those changes without losing each other’s work!
 - Git was created by Linus Torvalds in 2005 for development of Linux.
 `Download & Install Git: https://git-scm.com/downloads`
+
+#### [Home](#table-of-contents)
 
 
 ### What Is ReactJS?
@@ -91,6 +98,8 @@ This project was generated with [Create React App](https://github.com/facebook/c
 
 ### How to install ReactJS
 run `npm install -g react@latest react-dom@latest` on your development machine
+
+#### [Home](#table-of-contents)
 
 
 ## How To Code in ReactJS
@@ -178,6 +187,7 @@ At the bottom of your App.tsx file, you will find a default export statement tha
 export default App;
 </code>
 ```
+#### [Home](#table-of-contents)
 
 # References 
  - JSX 
