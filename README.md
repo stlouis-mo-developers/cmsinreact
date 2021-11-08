@@ -2,12 +2,14 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [How To Setup in ReactJS](#how-to-setup-in-reactjs)
-    - [What Is Node?](#what-is-node)
-    - [What Is NPM?](#what-is-npm)
-    - [What Is GIT?](#what-is-git)
-    - [What Is ReactJS?](#what-is-reactjs)
+  - [Why do we code in ReactJS?](#why-do-we-code-in-reactjs)
+  - [What do we need to code in ReactJS?](#what-do-we-need-to-code-in-reactjs)
+  - [Who Am I?](#who-am-i)
+- [How To Get Started in ReactJS](#how-to-get-started-in-reactjs)
+    - [How To Install & Learn About Node?](#what-is-node)
+    - [[How To Install & Learn About NPM?](#what-is-npm)
+    - [[How To Install & Learn About GIT?](#what-is-git)
+    - [[How To Install & Learn About ReactJS?](#what-is-reactjs)
     - [What Is Create React App?](#what-is-create-react-app)
         - [How to install ReactJS](#how-to-install-reactjs)
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
@@ -18,19 +20,34 @@
 - [Tips](#tips)
 
 ## Introduction
+In this section we will cover:
 - Why do we use or code in ReactJS?
-- NWhat do we need to code in ReactJS?
-- How do we code in ReactJS
+- What do we need to code in ReactJS?
 - Who Am I?
 
-## Prerequisites
+### Why do we code in ReactJS?
+- React is an open source JavaScript framework that is used for building the front-ends or user interfaces for single-page applications
+because it can update sections of the front-end (based on data changes) without reloading the entire page. 
+- React is the most popular JavaScript library / framework used in building the frontends / user interface (UI) / view layer for
+both web and mobile applications. 
+- React simplifies and/or facilitates the breaking down of our View Layer / User Interface into distinct sections (components) that 
+can we worked on independently and/or re-used across our web / mobile app project. For example, a component that displays who's online can be reused in multiple places across our project without having to code it each time!
+
+
+### What do we need to code in ReactJS?
+We need a development environment (windows / mac / linux) that is setup for React development. An environment like that will have the following installed ...
 - Node
 - NPM
 - Git
-- Visual Studio Code (development environment)
+- Visual Studio Code or any other JavaScript development environment 
+- React.JS library 
 
+### Who Am I?
+My name is Kingsley Tagb and I am a software developer with more than 10+ years of designing, architecting & coding 
+enterprise Web, mobile & desktop applications using multiple software frameworks including React.JS
+- Contact me with help or questions by sending me a message via: https://www.facebook.com/howtobecomeacomputerprogrammer
 
-## How To Setup in ReactJS
+## How To Get Started in ReactJS?
 - Clone the repo and `cd` into its folder
 - `npm install` to install dependencies
 - `npm start` to run the app in dev mode
