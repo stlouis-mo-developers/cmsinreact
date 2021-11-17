@@ -116,14 +116,38 @@ Some of the typical components you will find in a ReactJS app incude:
 
 ### What Is JSX?
 `JSX` stands for `Javascript XML` and is the React syntax / language that allows you to write HMTL like tags inside JavaScript!
-- Browsers do not understan JSX beacuse its' not valid Javascript syntax and so, we need a tool like `Bablel` to transform / compile `JSX` 
+- Browsers do not understan JSX beacuse it's not valid Javascript syntax and so, we need a tool like `Bablel` to transform / compile `JSX` 
 syntax into Javasript functions that the browser can understand and execute! 
 - Each JSX tag is compiled into a Javascript `React.createElement` function call which is a plain Javascript function that browsers support  / understand.
 - A JSX expression starts with a HTML-like opening tag, and also ends with its closing tag. You can leave out the closing tag if there are no children
-Here is what JSX looks like ...
+- What does a JSX statement looks like?
 ```
 <code>
-  const h1Element = <h1 className="myclass">H1 Element</h1>;
+export default function App() {
+  const name = "Kingsley Tagbo";
+  
+  return (
+    <div className="App" id="App">
+      <h3> Hi {name} </h3>
+    </div>
+  );
+}
+</code>
+```
+
+- How do you comment code in JSX?
+You use JavaScript comments inside of Curly braces like {/* commented out statement */}.
+```
+<code>
+export default function App() {
+  const name = "Kingsley Tagbo";
+  
+  return (
+    <div className="App" id="App">
+      {/* <h3> Hi {name} </h3> */}
+    </div>
+  );
+}
 </code>
 ```
 
