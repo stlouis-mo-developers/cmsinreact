@@ -267,7 +267,7 @@ import './App.css';
 - The second statement imports a logo from './logo.svg'. 
 - The third statement imports the stylesheets / CSS for your ReactJS App component 
 - The App component
-  - After all the imports, you have a functional compponent named App. Here is what it looks like ...
+- After all the imports, you have a functional compponent named App. Here is what it looks like ...
 
 ```
 <code>
@@ -302,6 +302,37 @@ export default App;
 </code>
 ```
 #### [Home](#table-of-contents)
+
+### How To Create a Footer Component?
+- The footer at the bottom of a website typically contains a copyright notice and other needed HTML markup
+- All the HTML functionality in the Footer section can be seperated out into a `Footer` component placed inside a sub folder at `./components/Footer.tsx`
+- The HTML / JSX Marku cane be exported from the Footer component and imported into the `App` component where it can be dispalyed
+- The Tutorial below demonstrates a simple Footer component created inside `./components/Footer.tsx`
+```
+<code>
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+</code>
+```
+
 
 # References 
  - JSX 
