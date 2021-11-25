@@ -115,15 +115,17 @@ Some of the typical components you will find in a ReactJS app incude:
 - Login Component
 
 ### What Is JSX?
-`JSX` stands for `Javascript XML` and is the React syntax / language that allows you to write HMTL like tags inside JavaScript!
+`JSX` stands for `Javascript XML` and is the React syntax / language extension of JavaScript base that allows you to write HTML like tags inside JavaScript!
 - Browsers do not understan JSX beacuse it's not valid Javascript syntax and so, we need a tool like `Bablel` to transform / compile `JSX` 
 syntax into Javasript functions that the browser can understand and execute! 
 - Each JSX tag is compiled into a Javascript `React.createElement` function call which is a plain Javascript function that browsers support  / understand.
 - A JSX expression starts with a HTML-like opening tag, and also ends with its closing tag. You can leave out the closing tag if there are no children
-- What does a JSX statement looks like?
+- JSX expressions are written inside curly braces { }. Expressions are variables or any valid JavaScript expressions.
+
+#### What does a JSX statement looks like?
 ```
 <code>
-export default function App() {
+export function App() {
   const name = "Kingsley Tagbo";
   
   return (
@@ -132,22 +134,48 @@ export default function App() {
     </div>
   );
 }
+export default App;
 </code>
 ```
 
-- How do you comment code in JSX?
-You use JavaScript comments inside of Curly braces like {/* commented out statement */}.
+#### How do you comment out code in JSX?
+- Regular JavaScript comments in JSX are parsed as Text and displayed. So, you can't use a plain JavaScript comment like this:
 ```
 <code>
-export default function App() {
+ <!-- This comments out code in plain JavaScript but not in JSX -->
+</code>
+```
+- Place your JSX statements inside of Curly braces like this: {/* commented out statement */}.
+- Here is a single line JSX Comment
+```
+<code>
+{/* I'm a single line JSX commented out code */}
+</code>
+```
+
+- Here is a multi line JSX Comment
+```
+<code>
+{/* 
+  I am a multi
+  line
+  commented out code
+*/}  
+</code>
+```
+
+- Here is an example of JSX Comment in a React App. When you run this, nothing will showup on the screen
+```
+<code>
+export function App() {
   const name = "Kingsley Tagbo";
-  
   return (
     <div className="App" id="App">
       {/* <h3> Hi {name} </h3> */}
     </div>
   );
 }
+export default App;
 </code>
 ```
 

@@ -2,7 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export function App() {
+  const name = "Kingsley Tagbo";
+  return (
+    <div className="App" id="App">
+       <h3> Hi {name} </h3> 
+    </div>
+  );
+}
+
+function App1() {
   return (
     <div className="App">
       <header className="App-header">
