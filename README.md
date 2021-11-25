@@ -201,7 +201,7 @@ export default App;
 
 #### How do you diplay multiple nested HTML elements in JSX?
 - Multiple nested HTML elements must be wrapped in ONE top level element for a valid JSX expression.
-- In the tutorial below, there is one top-level / containing HTML  
+- In the tutorial below, there is one top-level / containing `DIV` HTML tag 
 ```
 <code>
 export function App() {
@@ -219,6 +219,27 @@ export function App() {
 export default App;
 </code>
 ```
+
+- Alternatively, you can use a `fragment` to wrap multiple nested lines of HTML
+- A fragment looks like an empty HTML tag `<></>`.   
+- In the tutorial below, there is one top-level / containing `<>` tag 
+```
+<code>
+export function App() {
+  const multiply = 5 * 5;
+  return (
+    <div id="App">
+      <> 
+        <p>5 * 5 is {multiply} </p>
+        <h3>5 + 5 is {5 + 5} </h3>
+        <div><strong>5 - 5 is {5 - 5} </strong></div>
+      </>
+    </div>
+  );
+}
+export default App;
+</code
+
 
 ### How To Create Your First Component?
 - If you used the `Create React App` or the `git clone fom repo-url` method, you already have the first component created for you.
