@@ -2,20 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-export function App() {
-  const multiply = 5 * 5;
-  return (
-    <div id="App">
-      <> 
-        <p>5 * 5 is {multiply} </p>
-        <h3>5 + 5 is {5 + 5} </h3>
-        <div><strong>5 - 5 is {5 - 5} </strong></div>
-      </>
-    </div>
-  );
-}
 
-function App1() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
