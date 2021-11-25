@@ -291,6 +291,7 @@ function App() {
     </div>
   );
 }
+export default App;
 </code>
 ```
 
@@ -310,6 +311,26 @@ export default App;
 - The Tutorial below demonstrates a simple Footer component created inside `./components/Footer.tsx`
 ```
 <code>
+function Footer() {
+  return (
+    <footer>
+      <p>Copyright &copy; Kingsley Tagbo</p>
+    </footer>
+  );
+}
+export default Footer;
+</code>
+```
+
+- The Tutorial below shows how the footer component is included and reused in the React App
+```
+<code>
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Footer from './components/Footer';
+
+
 function App() {
   return (
     <div className="App">
@@ -327,9 +348,13 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
+
+export default App;
+
 </code>
 ```
 
