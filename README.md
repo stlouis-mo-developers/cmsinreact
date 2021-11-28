@@ -392,11 +392,11 @@ function FooterNamed(params: any) {
   );
 }
 export default FooterNamed;
-</codde>
+</code>
 ```
 
 - The tutorial below demonstrates using an anonymous es5 function ...
-- 
+- `Named Functio` declarations are `hoisted` by the browser to the top of your code and interpreted before other code is executed. This also means that you can call a named function before you’ve declared that function it in your code
 ```
 <code>
 const FooterAnonymous = function (params: any) {
@@ -407,9 +407,24 @@ const FooterAnonymous = function (params: any) {
   );
 }
 export default FooterAnonymous;
-</codde>
+</code>
 ```
 
+#### ES6 Function Components
+- ES6 introduces `arrow functions`which allows us to write concisee xpressions without the `function` keyword.
+- In ES6, functions are writen using an arrow to the right of a parentheses which contains your parameters as in the tutorial below    ...
+```
+<code>
+const FooterArrow = (params: any) => {
+  return (
+        <footer>
+          <p>Copyright &copy; {params.title}</p>
+        </footer>
+  );
+}
+export default FooterArrow;
+</code>
+```
 
 #### [Home](#table-of-contents)
 

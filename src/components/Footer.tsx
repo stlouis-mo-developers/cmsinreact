@@ -7,8 +7,15 @@ function FooterNamed(params: any) {
 }
 
 const FooterAnonymous = function (params: any) {
+  const title:string = params.title ? params.title : 'Anonymous Function';
   return (
-    <FooterNamed  title={'Anonymous Function'}> </FooterNamed>
+    <FooterNamed  title={title}> </FooterNamed>
   );
 }
-export default FooterAnonymous;
+
+const FooterArrow = (params: any) => {
+  return (
+    <FooterAnonymous  title={'Arrow Function'}> </FooterAnonymous>
+  );
+}
+export default FooterArrow;
