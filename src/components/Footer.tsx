@@ -1,8 +1,14 @@
-function Footer(params: any) {
+function FooterNamed(params: any) {
   return (
     <footer>
       <p>Copyright &copy; {params.title}</p>
     </footer>
   );
 }
-export default Footer;
+
+const FooterAnonymous = function (params: any) {
+  return (
+    <FooterNamed  title={'Anonymous Function'}> </FooterNamed>
+  );
+}
+export default FooterAnonymous;

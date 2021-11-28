@@ -379,12 +379,46 @@ export default App;
 - `ES5` is an ECMAScript / Javascript standard and is also known as `ECMAScript 5` or `ECMAScript 2009`
 - `ES6` is also an ECMAScript / Javascript standard and is also known as `ECMAScript 6` or `ECMAScript 2015`
 
+#### ES5 Function Components
+- We can declare ES5 functions as a `named function` or as an `anonymous function`
+- The tutorial below shows a named es5 function ...
+```
+<code>
+function FooterNamed(params: any) {
+  return (
+    <footer>
+      <p>Copyright &copy; {params.title}</p>
+    </footer>
+  );
+}
+export default FooterNamed;
+</codde>
+```
+
+- The tutorial below demonstrates using an anonymous es5 function ...
+- 
+```
+<code>
+const FooterAnonymous = function (params: any) {
+  return (
+    <footer>
+      <p>Copyright &copy; {params.title}</p>
+    </footer>
+  );
+}
+export default FooterAnonymous;
+</codde>
+```
+
+
 #### [Home](#table-of-contents)
 
 
 # References 
  - JSX 
   - https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918
+- Javascript Functions
+  - ES5 vs. ES6: Functions: https://medium.com/@zac_heisey/es5-vs-es6-functions-cb51536002ee
 
 ## Tips
 
