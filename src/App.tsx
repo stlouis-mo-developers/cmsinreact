@@ -21,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Footer title={'Home'}></Footer>
+      <Footer title={'Kingsley Tagbo'}></Footer>
     </div>
   );
 }

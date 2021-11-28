@@ -15,8 +15,14 @@
 - [How To Code in ReactJS](#how-to-code-in-reactjs)
     - [Why Do We Use Components in ReactJS?](#why-do-we-use-components-in-reactjs)
     - [What Is JSX?](#what-is-jsx)
+      - [What does a JSX statement looks like?](#what-does-jsx-look-like)
+      - [How to comment out JSX?](#how-to-comment-out-jsx)
+      - [How to write math in JSX?](#How-to-write-math-in-JSX)
+      - [How to code nested HTML elements in JSX](#how-To-code-nested-html-elements-in-jsx)
     - [How To Create Your First Component?](#how-to-create-your-first-component)
     - [App Component?](#app-component)
+  - [The Javascript Language](#the-javascript-language)
+    - [ES5 vs. ES8](#es5-vs-es6)
 - [Tips](#tips)
 
 ## Introduction
@@ -122,7 +128,7 @@ syntax into Javasript functions that the browser can understand and execute!
 - A JSX expression starts with a HTML-like opening tag, and also ends with its closing tag. You can leave out the closing tag if there are no children
 - JSX expressions are written inside curly braces { }. Expressions are variables or any valid JavaScript expressions.
 
-#### What does a JSX statement looks like?
+#### What does JSX look like?
 ```
 <code>
 export function App() {
@@ -138,7 +144,7 @@ export default App;
 </code>
 ```
 
-#### How do you comment out code in JSX?
+#### How to comment out JSX?
 - Regular JavaScript comments in JSX are parsed as Text and displayed. So, you can't use a plain JavaScript comment like this:
 ```
 <code>
@@ -179,7 +185,7 @@ export default App;
 </code>
 ```
 
-#### How do you create simple math expressions in JSX?
+#### How to write math in JSX?
 - The code below demonstrates how you can create basic math expressions in JSX:
 ```
 <code>
@@ -198,8 +204,9 @@ export function App() {
 export default App;
 </code>
 ```
+#### [Home](#table-of-contents)
 
-#### How do you diplay multiple nested HTML elements in JSX?
+#### How to code nested HTML elements in JSX?
 - Multiple nested HTML elements must be wrapped in ONE top level element for a valid JSX expression.
 - In the tutorial below, there is one top-level / containing `DIV` HTML tag 
 ```
@@ -238,7 +245,9 @@ export function App() {
   );
 }
 export default App;
-</code
+</code>
+
+#### [Home](#table-of-contents)
 
 
 ### How To Create Your First Component?
@@ -309,12 +318,16 @@ export default App;
 - All the HTML functionality in the Footer section can be seperated out into a `Footer` component placed inside a sub folder at `./components/Footer.tsx`
 - The HTML / JSX Marku cane be exported from the Footer component and imported into the `App` component where it can be dispalyed
 - The Tutorial below demonstrates a simple Footer component created inside `./components/Footer.tsx`
+- All the HTML functionality in the Footer section can be seperated out into a `Footer` component placed inside a sub folder at `./components/Footer.tsx`
+- The Footer Footer `function component` receives parameters (params). In this tutorial, the App `parent` component sends a custom title whcih is received by the `child` footer component and displayed with `JSX` in Footer.tsx as `<p>Copyright &copy; {params.title}</p>`
+- SO, a parent component `App.tsx` can pass information / data to enclosed `child` components using function parameters
+- inanother section, we will review creating function components using `ES5` vs. `ES6` syntax
 ```
 <code>
-function Footer() {
+function Footer(params: any) {
   return (
     <footer>
-      <p>Copyright &copy; Kingsley Tagbo</p>
+      <p>Copyright &copy; {params.title}</p>
     </footer>
   );
 }
@@ -348,7 +361,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <Footer />
+      <Footer title={'Kingsley Tagbo'}></Footer>
     </div>
   );
 }
@@ -357,6 +370,16 @@ export default App;
 
 </code>
 ```
+#### [Home](#table-of-contents)
+
+
+## The JavaScript Language
+### ES5 vs ES6
+- `ECMAScript` is a standardard for the JavaScript language.
+- `ES5` is an ECMAScript / Javascript standard and is also known as `ECMAScript 5` or `ECMAScript 2009`
+- `ES6` is also an ECMAScript / Javascript standard and is also known as `ECMAScript 6` or `ECMAScript 2015`
+
+#### [Home](#table-of-contents)
 
 
 # References 

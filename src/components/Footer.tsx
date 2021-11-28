@@ -1,8 +1,7 @@
 function Footer(params: any) {
-  console.log({Footer: params})
   return (
     <footer>
-      <p>Copyright &copy; Kingsley Tagbo</p>
+      <p>Copyright &copy; {params.title}</p>
     </footer>
   );
 }
