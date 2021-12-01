@@ -5,7 +5,7 @@
   - [Why do we code in ReactJS?](#why-do-we-code-in-reactjs)
   - [What do we need to code in ReactJS?](#what-do-we-need-to-code-in-reactjs)
   - [Who Am I?](#who-am-i)
-- [How To Get Started in ReactJS](#how-to-get-started-in-reactjs)
+- [How To Setup a ReactJS Development Environment](#how-to-setup-a-reactjs-development-environment)
     - [How To Install & Learn About Node?](#what-is-node)
     - [[How To Install & Learn About NPM?](#what-is-npm)
     - [[How To Install & Learn About GIT?](#what-is-git)
@@ -37,7 +37,7 @@ because it can update sections of the front-end (based on data changes) without 
 - React is the most popular JavaScript library / framework used in building the frontends / user interface (UI) / view layer for
 both web and mobile applications. 
 - React simplifies and/or facilitates the breaking down of our View Layer / User Interface into distinct sections (components) that 
-can we worked on independently and/or re-used across our web / mobile app project. For example, a component that displays who's online can be reused in multiple places across our project without having to code it each time!
+can be worked on independently and/or re-used across our web / mobile app project. For example, a component that displays a copyright notice in a footer element can be designed & written once and then reused on any page of our wesbite / mobile app without having to code it each time!
 
 
 ### What do we need to code in ReactJS?
@@ -45,7 +45,7 @@ We need a development environment (windows / mac / linux) that is setup for Reac
 - Node
 - NPM
 - Git
-- Visual Studio Code or any other JavaScript development environment 
+- Visual Studio Code or any other JavaScript development tool 
 - React.JS library 
 
 ### Who Am I?
@@ -53,11 +53,12 @@ My name is Kingsley Tagb and I am a software developer with more than 10+ years 
 enterprise Web, mobile & desktop applications using multiple software frameworks including React.JS
 - Contact me with help or questions by sending me a message via: https://www.facebook.com/howtobecomeacomputerprogrammer
 
-## How To Get Started in ReactJS?
-- Clone the repo and `cd` into its folder
-- `npm install` to install dependencies
-- `npm start` to run the app in dev mode
-- Create a new React Project using Create React App by running `npx create-react-app reactjs-lesson-one-multi-tenant --template typescript`
+## How To Setup a ReactJS Development Environment?
+Follow the steps below to setup your React environment by performing the following tasks
+- Install Node & NPM
+- Install Git
+- Install Visual Studio Code
+- Install React
 
 #### [Home](#table-of-contents)
 
@@ -90,6 +91,12 @@ enterprise Web, mobile & desktop applications using multiple software frameworks
 `Download & Install Git: https://git-scm.com/downloads`
 
 #### [Home](#table-of-contents)
+
+### How To Get Started in ReactJS?
+- Clone the repo and `cd` into its folder
+- `npm install` to install dependencies
+- `npm start` to run the app in dev mode
+- Create a new React Project using Create React App by running `npx create-react-app reactjs-lesson-one-multi-tenant --template typescript`
 
 
 ### What Is ReactJS?
