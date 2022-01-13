@@ -4,6 +4,8 @@ import './App.css';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Home from './pages/Home';
+import Blogs from './pages/Blogs';
+import BlogPost from './pages/BlogPost';
 
 
 function App() {
@@ -16,9 +18,11 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
           <Route path="about/*" element={<About />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path=":id/*" element={<BlogPost />} />
         </Routes>
       </BrowserRouter>
-      <Footer title={'Kingsley Tagbo'}></Footer>
+      <Footer title={'REACT CMS'}></Footer>
     </div>
   );
 }

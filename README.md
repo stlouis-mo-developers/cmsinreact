@@ -453,8 +453,6 @@ export default FooterArrow;
 # References 
  - JSX 
   - https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918
-- Javascript Functions
-  - ES5 vs. ES6: Functions: https://medium.com/@zac_heisey/es5-vs-es6-functions-cb51536002ee
 
 ## Tips
 
