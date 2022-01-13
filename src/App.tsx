@@ -19,7 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
           <Route path="about/*" element={<About />} />
           <Route path="blogs" element={<Blogs />} />
-          <Route path=":id/*" element={<BlogPost />} />
+          <Route path="blogs/:id/*" element={<BlogPost />} />
+          <Route path='*' element={<Home />} />
         </Routes>
       </BrowserRouter>
       <Footer title={'REACT CMS'}></Footer>
