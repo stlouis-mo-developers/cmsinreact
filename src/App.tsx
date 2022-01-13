@@ -7,6 +7,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Blogs from './pages/Blogs';
 import BlogPost from './pages/BlogPost';
+import Login from './pages/Login';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="about/*" element={<About />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="blogs/:id/*" element={<BlogPost />} />
+          <Route path='login/*' element={<Login />} />
           <Route path='*' element={<Home />} />
         </Routes>
       </BrowserRouter>

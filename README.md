@@ -450,11 +450,10 @@ export default FooterArrow;
 #### [Home](#table-of-contents)
 
 
-# References 
- - JSX 
-  - https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918
-
 ## Tips
+
+### npm install --save bootstrap
+### npm install --save-dev @types/bootstrap
 
 In the project directory, you can run:
 
