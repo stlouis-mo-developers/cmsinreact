@@ -5,7 +5,7 @@ const BlogPost = () => {
     console.log({params: id})
     return (
 
-        <h1>Blog Post Page at  for your-website.com</h1>
+        <h1>Blog Post Page at <span>blogs/{id}</span> for your-website.com</h1>
         );
   };
   export default BlogPost;
