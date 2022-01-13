@@ -12,7 +12,7 @@ import BlogPost from './pages/BlogPost';
 function App() {
   return (
     <div className="App">
-      <Header title={"REACT Multi-Tenant"}>
+      <Header title={process.env.REACT_APP_WEBSITE_NAME}>
       </Header>
       <BrowserRouter>
         <Routes>
