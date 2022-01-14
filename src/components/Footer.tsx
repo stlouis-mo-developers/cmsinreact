@@ -1,21 +1,10 @@
-function FooterNamed(params: any) {
+const Footer = (params: any) => {
   return (
-    <footer>
-      <p>Copyright &copy; {params.title}</p>
-    </footer>
+    <footer className="footer fixed-bottom mt-auto py-1 bg-light">
+      <div className="container">
+        <p>Copyright &copy; {params.title}</p>
+      </div>
+  </footer>
   );
 }
-
-const FooterAnonymous = function (params: any) {
-  const title:string = params.title ? params.title : 'Anonymous Function';
-  return (
-    <FooterNamed  title={title}> </FooterNamed>
-  );
-}
-
-const FooterArrow = (params: any) => {
-  return (
-    <FooterAnonymous  title={'Arrow Function'}> </FooterAnonymous>
-  );
-}
-export default FooterArrow;
+export default Footer;

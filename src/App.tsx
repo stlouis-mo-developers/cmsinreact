@@ -13,6 +13,7 @@ import Login from './pages/Login';
 function App() {
   return (
     <div className="App">
+      <div className="d-flex flex-column h-100">
       <Header title={process.env.REACT_APP_WEBSITE_NAME}>
       </Header>
       <BrowserRouter>
@@ -25,7 +26,8 @@ function App() {
           <Route path='*' element={<Home />} />
         </Routes>
       </BrowserRouter>
-      <Footer title={'REACT CMS'}></Footer>
+        <Footer title={process.env.REACT_APP_WEBSITE_NAME}></Footer>
+      </div>
     </div>
   );
 }
