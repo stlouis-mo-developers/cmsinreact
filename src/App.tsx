@@ -14,18 +14,20 @@ function App() {
   return (
     <div className="App">
       <div className="d-flex flex-column h-100">
-      <Header title={process.env.REACT_APP_WEBSITE_NAME}>
-      </Header>
-      <BrowserRouter>
-        <Routes>
-        <Route path="/" element={<Home />} />
-          <Route path="about/*" element={<About />} />
-          <Route path="blogs" element={<Blogs />} />
-          <Route path="blogs/:id/*" element={<BlogPost />} />
-          <Route path='login/*' element={<Login />} />
-          <Route path='*' element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+        <React.Fragment>
+              <Header title={process.env.REACT_APP_WEBSITE_NAME}>
+              </Header>
+            </React.Fragment>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about/*" element={<About />} />
+            <Route path="blogs" element={<Blogs />} />
+            <Route path="blogs/:id/*" element={<BlogPost />} />
+            <Route path='login/*' element={<Login />} />
+            <Route path='*' element={<Home />} />
+          </Routes>
+        </BrowserRouter>
         <Footer title={process.env.REACT_APP_WEBSITE_NAME}></Footer>
       </div>
     </div>
