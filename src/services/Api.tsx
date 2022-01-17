@@ -1,18 +1,17 @@
-const data:any = [];
-const adminUser = { id: 0, username: 'admin', password: 'password' };
-
 export class ApiServer {
+static readonly data:any = [];
+static readonly adminUser = { id: 0, username: 'admin', password: 'password' };
 
   AddItem = function (value: any) {
-    data.push(value);
+    ApiServer.data.push(value);
   }
 
   ListItems = function () {
-    return data;
+    return ApiServer.data;
   }
 
   Login(username: string, password: string){
-    if ( (username && password) && (username === adminUser.username) && (password === adminUser.password)) {
+    if ( (username && password) && (username === ApiServer.adminUser.username) && (password === ApiServer.adminUser.password)) {
       return true;
     }
     else{
