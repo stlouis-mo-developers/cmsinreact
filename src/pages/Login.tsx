@@ -59,7 +59,7 @@ const Login = () => {
                                 </form>
                                 <hr className="mt-4" />
                                 <div className="col-12">
-                                    <p className="text-center mb-0">Have not account yet? <button className='btn btn-outline-secondary'>Signup</button></p>
+                                    <p className="text-center mb-0">Have no account yet? <button className='btn btn-outline-secondary'>Signup</button></p>
                                 </div>
                             </section>
                         }
