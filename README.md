@@ -450,10 +450,13 @@ export default FooterArrow;
 #### [Home](#table-of-contents)
 
 
-## Tips
+# GIT STUP
+ - git remote add origin-cmsinreact https://github.com/stlouis-mo-developers/cmsinreact.git
+ - git remote -v
+ - git pull origin-cmsinreact main --allow-unrelated-histories
+ - git push origin-cmsinreact
 
-### npm install --save bootstrap
-### npm install --save-dev @types/bootstrap
+## Tips
 
 In the project directory, you can run:
 
