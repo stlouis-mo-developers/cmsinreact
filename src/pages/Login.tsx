@@ -1,23 +1,30 @@
 import { useState } from 'react';
 import { ApiServer } from '../services/Api';
 
+
 const Login = () => {
+    // use this useState hook for the username and password values from the From
     const [form, setFormValue] = useState({ username: '', password: '' });
-    ///const [isValid, setValidation] = useState(false);
-    const [showForm, displayForm] = useState(true);
+    // use this useSttae hook to hide / show the Login Form
+    const [showForm, displayForm] = useState(false);
     const formState: any = Object.assign({}, form);
 
+    // Function called when the Login button is clicked. 
+    // Calls the Api Service to determine if the login is valid
     const onLogin = (event: any) => {
-        const isValid = new ApiServer().Login(form.username, form.password);
+        // Call the Api Service and check if the Login si valid
+        const isValid = (new ApiServer()).Login(form.username, form.password);
+        // use this hook to hide / show the Login form
         displayForm(!isValid);
         //onsole.log({ onLogin: formState, isValid: isValid });
     }
 
+    // Function called when the Username / Password values are chaanged
     const onChange = (e: any) => {
         const key: string = e.target.name;
         const value: string = e.target.value;
         formState[key] = value;
-        //console.log({formState: formState});
+        // use this hook to store the states of the Username / Password calues
         setFormValue(formState);
     }
 

@@ -455,6 +455,8 @@ export default FooterArrow;
  - git remote -v
  - git pull origin-cmsinreact main --allow-unrelated-histories
  - git push origin-cmsinreact
+ - git checkout lesson-one
+ - git checkout lessow-two
 
 ## Tips
 
