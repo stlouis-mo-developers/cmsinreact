@@ -450,11 +450,11 @@ export default FooterArrow;
 #### [Home](#table-of-contents)
 
 
-# References 
- - JSX 
-  - https://medium.com/javascript-scene/jsx-looks-like-an-abomination-1c1ec351a918
-- Javascript Functions
-  - ES5 vs. ES6: Functions: https://medium.com/@zac_heisey/es5-vs-es6-functions-cb51536002ee
+# GIT STUP
+ - git remote add origin-cmsinreact https://github.com/stlouis-mo-developers/cmsinreact.git
+ - git remote -v
+ - git pull origin-cmsinreact main --allow-unrelated-histories
+ - git push origin-cmsinreact main
 
 ## Tips
 
