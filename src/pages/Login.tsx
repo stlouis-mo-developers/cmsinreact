@@ -24,7 +24,7 @@ const Login = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-4 offset-md-4">
+                <div className="col-6 offset-3">
                     <div className="login-form bg-light mt-4 p-4">
                         {(showForm === false) &&
                             <h3 className="main-form-text">You are logged-in to your account ...</h3>
@@ -33,14 +33,14 @@ const Login = () => {
                             <section>
                                 <form action="" method="" className="row g-3">
                                     <h3>Login</h3>
-                                    <div className="col-12">
-                                        <label>Username</label>
+                                    <div className="col-12 mb-3">
+                                        <label className="pull-left">Username</label>
                                         <input
                                             onChange={onChange}
                                             value={form.username}
                                             type="text" name="username" className="form-control" placeholder="Username" />
                                     </div>
-                                    <div className="col-12">
+                                    <div className="col-12 mb-3">
                                         <label>Password</label>
                                         <input
                                             onChange={onChange}
